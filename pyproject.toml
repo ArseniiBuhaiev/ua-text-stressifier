@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "ukrainian-tts-preprocessing"
+version = "0.1.0"
+description = "Ukrainian TTS preprocessing tools including context-aware lexical stress prediction and phonemization."
+authors = [
+    "Anastasiia Senyk",
+    "Mykhailo Lukianchuk",
+    "Valentyna Robeiko",
+    "Yurii Paniv"
+]
+packages = [{ include = "src" }]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
