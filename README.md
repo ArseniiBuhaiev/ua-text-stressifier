@@ -129,17 +129,25 @@ This model transcribes Ukrainian speech including lexical stress marks directly 
 
 ---
 
-# References
+# Citation
 
-### Dataset Sources
-
-* Common Voice: Rosana Ardila et al., *LREC 2020* [https://aclanthology.org/2020.lrec-1.520/](https://aclanthology.org/2020.lrec-1.520/)
-* Voice of America ASR: Yehor Smoliakov, 2022. Zenodo [DOI](https://doi.org/10.5281/zenodo.7405411)
-* PluG Corpus: [https://github.com/Dandelliony/pluperfect\_grac](https://github.com/Dandelliony/pluperfect_grac)
-* Wikimedia Dumps: [https://dumps.wikimedia.org](https://dumps.wikimedia.org)
-* Dictionaries of Ukraine Online: [https://lcorp.ulif.org.ua/dictua/](https://lcorp.ulif.org.ua/dictua/)
-
-### Models
-
-* ByT5 G2P: Jian Zhu et al., *Interspeech 2022* [arXiv](https://arxiv.org/abs/2204.03067)
-* Wav2Vec 2.0: Alexei Baevski et al., *NeurIPS 2020* [arXiv](https://arxiv.org/abs/2006.11477)
+```
+@inproceedings{senyk-etal-2025-context,
+    title = "Context-Aware Lexical Stress Prediction and Phonemization for {U}krainian {TTS} Systems",
+    author = "Senyk, Anastasiia  and
+      Lukianchuk, Mykhailo  and
+      Robeiko, Valentyna  and
+      Paniv, Yurii",
+    editor = "Romanyshyn, Mariana",
+    booktitle = "Proceedings of the Fourth Ukrainian Natural Language Processing Workshop (UNLP 2025)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria (online)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.unlp-1.11/",
+    doi = "10.18653/v1/2025.unlp-1.11",
+    pages = "96--104",
+    ISBN = "979-8-89176-269-5",
+    abstract = "Text preprocessing is a fundamental component of high-quality speech synthesis. This work presents a novel rule-based phonemizer combined with a sentence-level lexical stress prediction model to improve phonetic accuracy and prosody prediction in the text-to-speech pipelines. We also introduce a new benchmark dataset with annotated stress patterns designed for evaluating lexical stress prediction systems at the sentence level.Experimental results demonstrate that the proposed phonemizer achieves a 1.23{\%} word error rate on a manually constructed pronunciation dataset, while the lexical stress prediction pipeline shows results close to dictionary-based methods, outperforming existing neural network solutions."
+}
+```
