@@ -1,5 +1,10 @@
 # Ukrainian TTS Preprocessing
 
+This repository is an official implementation of the paper: [Context-Aware Lexical Stress Prediction and Phonemization for Ukrainian TTS Systems](https://aclanthology.org/2025.unlp-1.11/). It contains tools and models for Ukrainian text preprocessing, focusing on lexical stress prediction and phonemization to enhance text-to-speech (TTS) systems, as well as a benchmark dataset for evaluating lexical stress prediction systems for Ukrainian.
+
+
+
+
 We recommend using **Python 3.10 or higher** for best compatibility.
 To install all required dependencies, run:
 
