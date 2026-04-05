@@ -6,7 +6,7 @@ import tempfile
 from pathlib import Path
 
 
-from ua_text_stressifier.accentor.text_utils import (
+from .text_utils import (
     UKRAINIAN_LETTERS,
     clean_text,
     merge_texts,
