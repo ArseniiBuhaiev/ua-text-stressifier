@@ -1,0 +1,1 @@
+from .accentor import UkrainianStressifier

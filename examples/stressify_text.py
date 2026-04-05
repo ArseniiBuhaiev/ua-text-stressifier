@@ -1,4 +1,4 @@
-from src.accentor import UkrainianStressifier
+from ua_text_stressifier.accentor import UkrainianStressifier
 
 if __name__ == "__main__":
     import sys

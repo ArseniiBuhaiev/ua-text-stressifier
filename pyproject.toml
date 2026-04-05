@@ -1,14 +1,14 @@
 [tool.poetry]
-name = "ukrainian-tts-preprocessing"
+name = "ua-text-stressifier"
 version = "0.1.0"
-description = "Ukrainian TTS preprocessing tools including context-aware lexical stress prediction and phonemization."
+description = "Context-aware lexical stress prediction for Ukrainian."
 authors = [
     "Anastasiia Senyk",
     "Mykhailo Lukianchuk",
     "Valentyna Robeiko",
     "Yurii Paniv"
 ]
-packages = [{ include = "src" }]
+packages = [{ include = "ua_text_stressifier" }]
 
 [build-system]
 requires = ["poetry-core"]

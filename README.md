@@ -1,3 +1,5 @@
+This is a fork serving to be a ready to install package for automatic stress prediction.
+
 # Ukrainian TTS Preprocessing
 
 This repository is an official implementation of the paper: [Context-Aware Lexical Stress Prediction and Phonemization for Ukrainian TTS Systems](https://aclanthology.org/2025.unlp-1.11/). It contains tools and models for Ukrainian text preprocessing, focusing on lexical stress prediction and phonemization to enhance text-to-speech (TTS) systems, as well as a benchmark dataset for evaluating lexical stress prediction systems for Ukrainian.
@@ -8,8 +10,10 @@ This repository is an official implementation of the paper: [Context-Aware Lexic
 We recommend using **Python 3.10 or higher** for best compatibility.
 To install all required dependencies, run:
 
+## Installation
+
 ```bash
-pip install -r requirements.txt
+pip install git+https://github.com/ArseniiBuhaiev/text-stressifier-ua.git
 ```
 
 ---
@@ -17,7 +21,6 @@ pip install -r requirements.txt
 ## Contents
 
 * [Ukrainian Lexical Stress Prediction Model](#ukrainian-lexical-stress-prediction-model)
-* [Ukrainian Phonemizer](#ukrainian-phonemizer)
 * [Ukrainian Lexical Stress Benchmark](#ukrainian-lexical-stress-benchmark)
 * [Wav2Vec2 with Lexical Stress](#wav2vec2-with-lexical-stress)
 
@@ -30,7 +33,7 @@ We provide a **ByT5-based grapheme-to-phoneme model** specialized for predicting
 ### Quickstart: Predict Lexical Stress
 
 ```python
-from src.accentor import UkrainianStressifier
+from ua_text_stressifier import UkrainianStressifier
 
 stressifier = UkrainianStressifier()
 
@@ -41,22 +44,6 @@ print(stressifier.apply_stress_marks("Привіт, як у тебе справ�
 
 * **Architecture:** ByT5 Grapheme-to-Phoneme model
 * **Training Data:** Voice of America corpus, annotated with stress marks by an ASR Wav2Vec2 model
-
----
-
-# Ukrainian Phonemizer
-
-The Ukrainian Phonemizer converts Ukrainian text into phonemes.
-
-### Usage Example
-
-```python
-from src.phonemizer import UkrainianPhonemizer
-
-phonemizer = UkrainianPhonemizer()
-
-print(phonemizer.phonemize("привіт світе"))
-```
 
 ---
 

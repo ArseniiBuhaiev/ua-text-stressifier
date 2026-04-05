@@ -1,4 +1,4 @@
-from src.accentor import UkrainianStressifier
+from ua_text_stressifier.accentor import UkrainianStressifier
 from lexical_stress_benchmark.benchmark import evaluate_stressification
 
 path_to_nemo_model = "./T5G2P.nemo"
