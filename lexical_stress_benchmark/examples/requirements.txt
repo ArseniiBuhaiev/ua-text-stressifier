@@ -1,3 +1,0 @@
-ukrainian-accentor @ git+https://github.com/egorsmkv/ukrainian-accentor.git@3dff5ecd2ac91e879086c0e2a7f1ce079603c9f1
-ukrainian-accentor-transformer @ git+https://github.com/Theodotus1243/ukrainian-accentor-transformer.git
-ukrainian_word_stress==1.1.1

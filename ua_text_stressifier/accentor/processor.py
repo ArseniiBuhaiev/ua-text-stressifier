@@ -12,7 +12,7 @@ from ua_text_stressifier.accentor.text_utils import (
     merge_texts,
     split_text_by_whitespace
 )
-from utils import shift_stress_marks_right, shift_stress_marks_left
+from .utils import shift_stress_marks_right, shift_stress_marks_left
 from transformers import AutoTokenizer, T5ForConditionalGeneration
 
 
