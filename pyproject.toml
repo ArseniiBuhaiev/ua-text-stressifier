@@ -7,10 +7,10 @@ name = "ua-text-stressifier"
 version = "0.1.0"
 description = "Context-aware lexical stress prediction for Ukrainian."
 authors = [
-    "Anastasiia Senyk",
-    "Mykhailo Lukianchuk",
-    "Valentyna Robeiko",
-    "Yurii Paniv"
+    {name = "Anastasiia Senyk"},
+    {name = "Mykhailo Lukianchuk"},
+    {name = "Valentyna Robeiko"},
+    {name = "Yurii Paniv"}
 ]
 dependencies = [
     "absl-py==2.3.0",
